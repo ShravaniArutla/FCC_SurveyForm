@@ -49,7 +49,10 @@ h1{
 }
 
 textarea{
-  border: 2px solid var(--input-color)
+  border: 2px solid var(--input-color);
+  font-family: inherit;
+  padding: 5px;
+  margin: 20px 0;
 }
 
 .check{
@@ -60,12 +63,17 @@ textarea{
 
 }
 
+input{
+  font-family: inherit;
+}
+
 input[type="submit"]{
   background-color: var(--border-color);
   border: 2px solid var(--input-color);
   width: 200px;
   padding: 10px;
   margin-left: 120px;
+  margin-bottom: 20px;
   border-radius: 30px;
   cursor: pointer;
 }
